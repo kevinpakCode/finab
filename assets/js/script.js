@@ -70,7 +70,7 @@ $(document).ready(function(){
     })
 
     $('.js-partner').slick({
-        dots:true,
+        dots:false,
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
@@ -124,6 +124,9 @@ $(document).ready(function(){
             },
         ], 
     })
+
+    //fancibox
+    $('[data-fancybox="gallery"]').fancybox({});
 
     
 })

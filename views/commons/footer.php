@@ -28,7 +28,7 @@
                   <i class="icon icon-phone"></i>
                   <div class="footer__top__right__bottom-row-list">
                     <a href="tel:0022991436363">+(229) 91- 43 - 63 -  63</a>
-                    <a href="tel:0022955061818">+(229) 55 - 06 - 18 - 18</a>
+                    <a href="tel:0022955726060">+(229) 55 - 72 - 60 - 60</a>
                   </div>
                 </div>
               </li>
