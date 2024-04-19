@@ -1,9 +1,16 @@
+/*site*/
+.stat__item__top{
+    white-space: nowrap;
+}
+
 @media (max-width:767px){
     .header__menu-list{
         left:0;
     }
 }
 
+
+/*fancybox*/
 .fancybox-inner *{
     color:#fff;
 }
