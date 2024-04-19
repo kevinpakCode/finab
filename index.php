@@ -273,7 +273,7 @@
               <img src="./assets/images/p27.jpg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p28.png" alt="partner">
+              <img src="./assets/images/p28.jpg" alt="partner">
             </div>
             <div class="partner__item">
               <img src="./assets/images/p29.png" alt="partner">
