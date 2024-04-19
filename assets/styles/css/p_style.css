@@ -1,0 +1,28 @@
+@media (max-width:767px){
+    .header__menu-list{
+        left:0;
+    }
+}
+
+.fancybox-inner *{
+    color:#fff;
+}
+.fancybox-navigation .fancybox-button{
+    position: fixed;
+    top:50%;
+    transform: translateY(-50%);
+}
+.fancybox-navigation .fancybox-button.fancybox-button--arrow_left{
+    left:15px;
+}.fancybox-navigation .fancybox-button.fancybox-button--arrow_right{
+    right:15px;
+}
+.fancybox-stage{
+    z-index: -1;
+}
+.fancybox-button svg{
+    fill: #fff;
+}
+.fancybox-image{
+    border: 2px solid #fff !important;
+}
