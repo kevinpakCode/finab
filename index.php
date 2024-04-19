@@ -189,115 +189,112 @@
           <h2>Nos partenaires</h2>
           <div class="partner__list js-partner">
             <div class="partner__item">
-              <img src="./assets/images/p7.png" alt="partner">
+              <img src="./assets/images/p1.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p1.png" alt="partner">
+              <img src="./assets/images/p2.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p2.png" alt="partner">
+              <img src="./assets/images/p3.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p3.png" alt="partner">
+              <img src="./assets/images/p4.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p4.png" alt="partner">
+              <img src="./assets/images/p5.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p5.png" alt="partner">
+              <img src="./assets/images/p6.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p6.png" alt="partner">
+              <img src="./assets/images/p7.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p7.jpg" alt="partner">
+              <img src="./assets/images/p8.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p8.jpeg" alt="partner">
+              <img src="./assets/images/p9.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p9.png" alt="partner">
+              <img src="./assets/images/p10.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p10.png" alt="partner">
+              <img src="./assets/images/p11.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p11.png" alt="partner">
+              <img src="./assets/images/p12.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p12.jpg" alt="partner">
+              <img src="./assets/images/p13.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p13.png" alt="partner">
+              <img src="./assets/images/p14.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p14.png" alt="partner">
+              <img src="./assets/images/p15.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p15.png" alt="partner">
+              <img src="./assets/images/p16.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p16.png" alt="partner">
+              <img src="./assets/images/p17.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p17.jpeg" alt="partner">
+              <img src="./assets/images/p18.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p18.png" alt="partner">
+              <img src="./assets/images/p19.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p19.jpg" alt="partner">
+              <img src="./assets/images/p20.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p20.png" alt="partner">
+              <img src="./assets/images/p21.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p21.png" alt="partner">
+              <img src="./assets/images/p22.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p22.jpg" alt="partner">
+              <img src="./assets/images/p23.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p23.png" alt="partner">
+              <img src="./assets/images/p24.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p24.png" alt="partner">
+              <img src="./assets/images/p25.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p25.png" alt="partner">
+              <img src="./assets/images/p26.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p26.png" alt="partner">
+              <img src="./assets/images/p27.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p27.jpg" alt="partner">
+              <img src="./assets/images/p28.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p28.jpg" alt="partner">
+              <img src="./assets/images/p29.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p29.png" alt="partner">
+              <img src="./assets/images/p30.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p30.png" alt="partner">
+              <img src="./assets/images/p31.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p31.png" alt="partner">
+              <img src="./assets/images/p32.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p32.jpeg" alt="partner">
+              <img src="./assets/images/p33.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p33.jpeg" alt="partner">
+              <img src="./assets/images/p34.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p34.jpg" alt="partner">
+              <img src="./assets/images/p35.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p35.jpg" alt="partner">
-            </div>
-            <div class="partner__item">
-              <img src="./assets/images/p36.png" alt="partner">
+              <img src="./assets/images/p36.svg" alt="partner">
             </div>
           </div>
         </div>
