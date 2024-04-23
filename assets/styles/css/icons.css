@@ -73,3 +73,10 @@
 .icon-linkedin {
   -webkit-mask-image: url('./../../../assets/images/svg/icon-linkedin.svg');
 }
+
+/*
+* icon-angle-arrown-bottom
+*/
+.icon-angle-arrown-bottom {
+  -webkit-mask-image: url('./../../../assets/images/svg/icon-angle-arrown-bottom.svg');
+}

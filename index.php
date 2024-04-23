@@ -56,7 +56,7 @@
                 <img src="./assets/images/pdg.png" alt="pdg">
               </div>
               <p>Ulrich Adjovi</p>
-              <span>Promoteur du Groupe Empire.</span>
+              <span>Promoteur du FINAB.</span>
             </div>
             <div class="discover__bottom__right wow animate__animated animate__fadeInRight">
               <img src="./assets/images/groupeempire-logo.png" alt="groupeempire">
@@ -189,6 +189,9 @@
           <h2>Nos partenaires</h2>
           <div class="partner__list js-partner">
             <div class="partner__item">
+              <img src="./assets/images/p7.png" alt="partner">
+            </div>
+            <div class="partner__item">
               <img src="./assets/images/p1.png" alt="partner">
             </div>
             <div class="partner__item">
@@ -215,31 +218,7 @@
         </div>
       </div>
     </section>
-    <section class="last-event">
-        <div class="container">
-          <div class="last-event__content">
-            <h2 class="last-event__firstTitle">Le FInAB</h2>
-            <h2 class="last-event__secondTitle">c'est trois événements en 1</h2>
-            <div class="last-event__list js-event">
-              <div class="last-event__item">
-                <img src="./assets/images/envent-img-01.png" alt="event">
-              </div>
-              <div class="last-event__item">
-                <img src="./assets/images/envent-img-02.png" alt="event">
-              </div>
-              <div class="last-event__item">
-                <img src="./assets/images/envent-img-03.png" alt="event">
-              </div>
-              <div class="last-event__item">
-                <img src="./assets/images/envent-img-04.png" alt="event">
-              </div>
-              <div class="last-event__item">
-                <img src="./assets/images/envent-img-05.png" alt="event">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <?php include('./views/sections/last-events.php');?>
   </main>
 </div>
 <?php

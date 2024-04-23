@@ -1,3 +1,3 @@
 <?php 
-$baseUrl = "https://finab-benin.dev-spw.com/";
+$baseUrl = "https://{$_SERVER['SERVER_NAME']}/";
 ?>
