@@ -41,7 +41,7 @@
                                     <p>Plus qu'un festival, le FInAB est une célébration de la diversité culturelle et une opportunité de découvrir de nouveaux talents et de se connecter avec des artistes du monde entier. En témoigne le thème de cette première édition du FInAB : « La diversité culturelle, un levier d’attraction et de rayonnement pour les pays du Sud ».</p>
 
                                     <p>Plus qu'un festival, le FInAB est une célébration de la diversité culturelle et une opportunité de découvrir de nouveaux talents et de se connecter avec des artistes du monde entier. En témoigne le thème de cette première édition du FInAB : « La diversité culturelle, un levier d’attraction et de rayonnement pour les pays du Sud ».</p>
-								<a class="btn" href="PROGRAMME.pdf">Télécharger</a>
+								<a class="btn" href="<?="{$baseUrl}assets/documents/programs/2024.pdf"?>">Télécharger</a>
                                 </p>
                             </div>
                         </div>
