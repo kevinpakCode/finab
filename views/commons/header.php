@@ -14,7 +14,7 @@
             </li>
           </ul>
         </li>
-        <li class="header__menu__item"><a href="<?="{$baseUrl}2023/partenaire.php";?>">Programmation</a></li>
+        <li class="header__menu__item"><a href="<?="{$baseUrl}programme.php";?>">Programmation</a></li>
         <li class="header__menu__item"><a href="<?="{$baseUrl}partners.php";?>">Sponsoring & partenaires</a></li>
         <li class="header__menu__item"><a href="<?="{$baseUrl}2023/média.php";?>">Actualités</a></li>
         <li class="header__menu__item"><a href="<?="{$baseUrl}media.php";?>">Médiathèque</a></li>

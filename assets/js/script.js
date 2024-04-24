@@ -128,6 +128,46 @@ $(document).ready(function(){
     //fancibox
     $('[data-fancybox="gallery"]').fancybox({});
 
+    //dynamic list program
+    //:01 -> set first day program to fancybox
+    const firstDay = "23-04-2024"
+    $(`[data-fancybox="${firstDay}"]`).fancybox({});
+    //set
+    const selectField = document.getElementById('programmeSearch')
+    if(selectField){
+        selectField.onchange = function(e){
+            let value = e.target.value
+            
+            const allProgram = document.querySelectorAll('.programme-box__bottom__item')
+            const programListBox = document.getElementById('programmeList')
+            const allCurrentProgram = document.querySelectorAll(`.programme-box__bottom__item[data-day="${value}"]`)
+
+            programListBox.classList.remove('empty')
+            
+            allProgram.forEach(item => {
+                item.classList.remove('active')
+                if(item.hasAttribute('data-fancybox')){
+                    item.removeAttribute('data-fancybox')
+                }
+            })
+
+            if(allCurrentProgram.length>0){
+                allCurrentProgram.forEach(item =>{
+                    item.classList.add('active')
+                    item.setAttribute('data-fancybox', value)
+                    $(`[data-fancybox="${value}"]`).fancybox({});
+                })
+
+            }else{
+                if(programListBox.classList.contains('empty')){
+                    programListBox.classList.remove('empty')
+                }
+                programListBox.classList.add('empty')
+            }
+
+        }
+    }
+
     
 })
 
