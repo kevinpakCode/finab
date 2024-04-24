@@ -80,3 +80,24 @@
 .icon-angle-arrown-bottom {
   -webkit-mask-image: url('./../../../assets/images/svg/icon-angle-arrown-bottom.svg');
 }
+
+/*
+* icon-search
+*/
+.icon-search {
+  -webkit-mask-image: url('./../../../assets/images/svg/icon-search.svg');
+}
+
+/*
+* icon-left
+*/
+.icon-left {
+  -webkit-mask-image: url('./../../../assets/images/svg/icon-left.svg');
+}
+
+/*
+* icon-right
+*/
+.icon-right {
+  -webkit-mask-image: url('./../../../assets/images/svg/icon-right.svg');
+}
