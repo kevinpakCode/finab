@@ -1,4 +1,7 @@
 /*site*/
+.main{
+    min-height: calc(100vh - (90px + 352px));
+}
 .stat__item__top{
     white-space: nowrap;
 }
@@ -32,4 +35,95 @@
 }
 .fancybox-image{
     border: 2px solid #fff !important;
+}
+
+
+.firstface.programme{
+    background-image: url(../../images/firstface.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.firstface:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: rgba(10, 9, 7, 0.69);
+
+}
+.firstface__content{
+    min-height: 286px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.firstface__content__img{
+    width: 130px;
+}
+.firstface__content h1{
+    color:#fff;
+    text-align: center;
+}
+/*----------------*/
+.programme-box{
+    background-image: url(../../images/graphity.png);
+    background-repeat: repeat;
+}
+.programme-box__content{
+    padding:60px 15px;
+    background-color: #fff;
+}
+.programme-box__top{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap:30px;
+    max-width: 1149px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.programme-box__top__left{
+    width:495px;
+    height: 607px;
+}
+.programme-box__top__left img{
+    object-fit: contain;
+    height: 100%;
+}
+.programme-box__top__right{
+    width:calc(100% - 495px);
+}
+.programme-box__top__right p, .programme-box__top__right a{
+    text-transform: uppercase;
+    text-align: justify;
+}
+.programme-box__top__right p{
+    margin-bottom: 20px;
+}
+.programme-box__top__right a{
+    color:#FF910E;
+    font-family: "OpenSans-SemiBold", sans-serif;
+}
+@media (max-width: 991px){
+    .programme-box__top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .programme-box__top__left{
+        height: auto;
+    }
+    .programme-box__top__right{
+        width: 100%;
+    }
+}
+
+
+.programme-box__bottom{
+    
 }
