@@ -18,7 +18,7 @@
         <li class="header__menu__item"><a href="<?="{$baseUrl}partners.php";?>">Sponsoring & partenaires</a></li>
         <li class="header__menu__item"><a href="<?="{$baseUrl}actualite.php";?>">Actualités</a></li>
         <li class="header__menu__item"><a href="<?="{$baseUrl}media.php";?>">Médiathèque</a></li>
-        <li class="header__menu__item"><a href="<?="{$baseUrl}2023/contact.php";?>">Contact</a></li>
+        <li class="header__menu__item"><a href="<?="{$baseUrl}contact.php";?>">Contact</a></li>
       </ul>
       <a href="#" class="header__action">Inscrivez-vous</a>
       <a href="#" class="header__btnClose" id="js-btn-menu"><span></span></a>

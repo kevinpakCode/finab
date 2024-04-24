@@ -101,3 +101,31 @@
 .icon-right {
   -webkit-mask-image: url('./../../../assets/images/svg/icon-right.svg');
 }
+
+/*
+* icon-facebook-circle
+*/
+.icon-facebook-circle {
+  -webkit-mask-image: url('./../../../assets/images/svg/icon-facebook-circle.svg');
+}
+
+/*
+* icon-twitter-x
+*/
+.icon-twitter-x {
+  -webkit-mask-image: url('./../../../assets/images/svg/icon-twitter-x.svg');
+}
+
+/*
+* icon-whatsapp
+*/
+.icon-whatsapp {
+  -webkit-mask-image: url('./../../../assets/images/svg/icon-whatsapp.svg');
+}
+
+/*
+* icon-outline-plus
+*/
+.icon-outline-plus {
+  -webkit-mask-image: url('./../../../assets/images/svg/icon-outline-plus.svg');
+}

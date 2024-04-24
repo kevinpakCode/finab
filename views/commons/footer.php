@@ -68,7 +68,7 @@
           <div class="footer__bottom__rs">
             <a href="https://www.facebook.com/finabbj"><i class="icon icon-facebook"></i></a>
             <a href="https://www.instagram.com/finab.bj/"><i class="icon icon-instagram"></i></a>
-            <a href="https://twitter.com/finabbj"><i class="icon icon-twitter"></i></a>
+            <a href="https://twitter.com/finabbj"><i class="icon icon-twitter-x"></i></a>
             <a href="https://www.youtube.com/channel/UCFWi_KjtltyPxeiwZz7Wvkg"><i class="icon icon-youtube"></i></a>
             <a href="https://www.linkedin.com/company/festival-international-des-arts-du-b%C3%A9nin/"><i class="icon icon-linkedin"></i></a>
           </div>
