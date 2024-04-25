@@ -63,7 +63,7 @@ h2{
     
 }
 .text_contact_p{
-    font-family: "Paprika-regular", sans-serif;
+    font-family: 'Paprika';
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -101,7 +101,7 @@ h2{
 .form_control label{
     width: 559px;
     height: 29px;
-    font-family: "OpenSans-SemiBold", sans-serif;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size:1rem;
@@ -140,17 +140,6 @@ h2{
 .form_control input:focus, .form_control textarea:focus{
     outline: none;
 }
-.error_message.error_active{
-    /* margin-top: 2px; */
-    background-color: #f73505;
-    color: #FFFFFF;
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.75rem;
-    display: flex;
-    justify-content: center;
-    line-height: 1;
-    align-items: center;
-}
 .form_contact_content form button{
     cursor: pointer;
     width: 100%;
@@ -160,7 +149,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "OpenSans-SemiBold", sans-serif;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -194,7 +183,7 @@ h2{
     width: 152px;
 }
 .tel_title{
-    font-family: "Paprika-regular", sans-serif;
+    font-family: 'Paprika';
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -204,7 +193,7 @@ h2{
 }
 .tel_text{
     margin-top: 6px;
-    font-family: "OpenSans-SemiBold", sans-serif;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 0.875rem;
@@ -346,7 +335,7 @@ h2{
         width: 152px;
     }
     .tel_title{
-        font-family: "Paprika-regular", sans-serif;
+        font-family: 'Paprika';
         font-style: normal;
         font-weight: 400;
         font-size: 0.875rem;
@@ -356,7 +345,7 @@ h2{
     }
     .tel_text{
         margin-top: 6px;
-        font-family: "OpenSans-SemiBold", sans-serif;
+        font-family: 'Open Sans';
         font-style: normal;
         font-weight: 600;
         font-size: 0.75rem;
