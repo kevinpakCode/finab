@@ -24,7 +24,7 @@
           découvrez les artistes talentueux qui ont participé à notre festival.
         </div>
         <div class="pg-media-section__search-box">
-          <label class="pg-media-section__search-box-label">Filter par presse</label>
+          <!-- <label class="pg-media-section__search-box-label">Filter par presse</label>
           <div class="cpn-select">
             <input type="text" name="selected-media" class="cpn-select__reel-field">
             <i class="icon icon-angle-arrown-bottom"></i>
@@ -42,11 +42,11 @@
               <li class="cpn-select__list-item" data-value="la_nation">La nation</li>
               <li class="cpn-select__list-item" data-value="matin_libre">Matin libre</li>
             </ul>
-          </div>
+          </div> -->
         </div>
         <div class="media-list">
           <div class="media-list__item" data-name="">
-            <a href="#" class="media-list__item-link">
+            <a href="https://www.jeuneafrique.com/1418947/economie/le-beninois-ulrich-adjovi-serial-entrepreneur-du-divertissement/" class="media-list__item-link" target="_blank">
               <div class="media-list__item-img">
                 <img src="./assets/images/press/new-01.png" />
               </div>
@@ -56,7 +56,7 @@
             </a>
           </div>
           <div class="media-list__item" data-name="">
-            <a href="#" class="media-list__item-link">
+            <a href="https://information.tv5monde.com/video/culture-premiere-edition-du-festival-international-des-arts-du-benin" class="media-list__item-link" target="_blank">
               <div class="media-list__item-img">
                 <img src="./assets/images/press/new-02.png" />
               </div>
@@ -66,7 +66,7 @@
             </a>
           </div>
           <div class="media-list__item" data-name="">
-            <a href="#" class="media-list__item-link">
+            <a href="https://www.musicinafrica.net/fr/magazine/finab-lart-latout-du-benin-pour-mieux-se-vendre-linternational" class="media-list__item-link" target="_blank">
               <div class="media-list__item-img">
                 <img src="./assets/images/press/new-03.png" />
               </div>
@@ -76,7 +76,7 @@
             </a>
           </div>
           <div class="media-list__item" data-name="">
-            <a href="#" class="media-list__item-link">
+            <a href="#" class="media-list__item-link" target="_blank">
               <div class="media-list__item-img">
                 <img src="./assets/images/press/new-04.png" />
               </div>
@@ -86,7 +86,7 @@
             </a>
           </div>
           <div class="media-list__item" data-name="">
-            <a href="#" class="media-list__item-link">
+            <a href="#" class="media-list__item-link" target="_blank">
               <div class="media-list__item-img">
                 <img src="./assets/images/press/new-05.png" />
               </div>
@@ -96,7 +96,7 @@
             </a>
           </div>
           <div class="media-list__item" data-name="">
-            <a href="#" class="media-list__item-link">
+            <a href="https://www.africaradio.com/benin-le-finab-est-la-fete-de-l-amour-de-l-art-des-passionnes-de-notre-patrimoine-culturel-ulrich-adjovi" class="media-list__item-link" target="_blank">
               <div class="media-list__item-img">
                 <img src="./assets/images/press/new-06.png" />
               </div>
@@ -106,7 +106,7 @@
             </a>
           </div>
           <div class="media-list__item" data-name="">
-            <a href="#" class="media-list__item-link">
+            <a href="#" class="media-list__item-link" target="_blank">
               <div class="media-list__item-img">
                 <img src="./assets/images/press/new-07.png" />
               </div>
@@ -115,7 +115,16 @@
               </div>
             </a>
           </div>
-          
+          <div class="media-list__item" data-name="">
+            <a href="https://musique.rfi.fr/musique-africaine/20230220-benin-six-jours-deffervescence-musicale-finab" class="media-list__item-link" target="_blank">
+              <div class="media-list__item-img">
+                <img src="./assets/images/press/new-08.png" />
+              </div>
+              <div class="media-list__item-infos">
+                <div class="media-list__item-name">RFI</div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>

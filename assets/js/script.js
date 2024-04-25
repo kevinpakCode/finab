@@ -128,18 +128,44 @@ $(document).ready(function(){
     //fancibox
     $('[data-fancybox="gallery"]').fancybox({});
 
+    /*=====================================
+    * ==========PROGRAMME PAGE ============
+    * ====================================*/
     //dynamic list program
-    //:01 -> set first day program to fancybox
-    const firstDay = "23-04-2024"
-    $(`[data-fancybox="${firstDay}"]`).fancybox({});
-    //set
     const selectField = document.getElementById('programmeSearch')
+    const allProgram = document.querySelectorAll('.programme-box__bottom__item')
+    const programListBox = document.getElementById('programmeList')
+    //:01 -> set current day program
+    const currentDate = new Date()
+    const currentDateMonth = currentDate.getMonth() < 9 ? ('0'+(currentDate.getMonth()+1)):(currentDate.getMonth()+1)
+    const currentDateDay = currentDate.getDate() < 9 ? ('0' + currentDate.getDate()) : currentDate.getDate()
+    const currentDateFormatted = `${currentDateDay}-${currentDateMonth}-${currentDate.getFullYear()}`
+
+    allProgram.forEach(item => {
+        item.classList.remove('active')
+        if(item.hasAttribute('data-fancybox')){
+            item.removeAttribute('data-fancybox')
+        }
+    })
+    const currentDateProgram = document.querySelectorAll(`.programme-box__bottom__item[data-day="${currentDateFormatted}"]`)
+    if(currentDateProgram.length>0){
+        currentDateProgram.forEach(item =>{
+            item.classList.add('active')
+        })
+        $(`[data-fancybox="${currentDateFormatted}"]`).fancybox({});
+
+    }
+    //:02-> set current date in option tag
+    const optionTag = selectField.querySelectorAll('option')
+    if(optionTag){
+        optionTag.forEach(item => item.value===currentDateFormatted?item.setAttribute('selected','selected'):item.removeAttribute('selected'))
+    }
+
+    //set
     if(selectField){
         selectField.onchange = function(e){
             let value = e.target.value
-            
-            const allProgram = document.querySelectorAll('.programme-box__bottom__item')
-            const programListBox = document.getElementById('programmeList')
+
             const allCurrentProgram = document.querySelectorAll(`.programme-box__bottom__item[data-day="${value}"]`)
 
             programListBox.classList.remove('empty')
@@ -155,8 +181,8 @@ $(document).ready(function(){
                 allCurrentProgram.forEach(item =>{
                     item.classList.add('active')
                     item.setAttribute('data-fancybox', value)
-                    $(`[data-fancybox="${value}"]`).fancybox({});
                 })
+                $(`[data-fancybox="${value}"]`).fancybox({});
 
             }else{
                 if(programListBox.classList.contains('empty')){

@@ -402,3 +402,39 @@
 .same-actuality__seemore a:hover{
     background-color: orange;
 }
+
+/* mediatheque */
+.media-list__item-img:before{
+    content:"";
+    position: absolute;
+    height:0;
+    width: 0;
+    background-color: #00000056;
+    z-index: 6;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+.media-list__item-img:after{
+    content:"";
+    position: absolute;
+    height:60px;
+    width: 60px;
+    z-index: 7;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .3s;
+    background-image: url(../../images/svg/finab_head.svg);
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+.media-list__item-img:hover:before{
+    height: 100%;
+    width: 100%;
+}
+.media-list__item-img:hover:after{
+    transform: translate(-50%, -50%) scale(1);
+}
