@@ -87,6 +87,9 @@
                         <a href="./assets/images/programs/2024/j2-panel7.jpeg" class="programme-box__bottom__item" data-day="24-04-2024">
                             <img src="./assets/images/programs/2024/j2-panel7.jpeg" alt="program">
                         </a>
+                        <a href="./assets/images/programs/2024/j3-1.jpeg" class="programme-box__bottom__item" data-day="25-04-2024">
+                            <img src="./assets/images/programs/2024/j3-1.jpeg" alt="program">
+                        </a>
                         <a href="./assets/images/programs/2024/j4-panel1.jpeg" class="programme-box__bottom__item" data-day="26-04-2024">
                             <img src="./assets/images/programs/2024/j4-panel1.jpeg" alt="program">
                         </a>
