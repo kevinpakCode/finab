@@ -18,7 +18,6 @@
   <link rel="stylesheet" href="./../../assets/styles/css/p_style.css">
   <link rel="stylesheet" href="./../../assets/styles/css/r_style.css">
   <link rel="stylesheet" href="./../../assets/styles/css/contact.css">
-  <link rel="stylesheet" href="./../../assets/styles/css/actuality_detail.css">
   <title>FESTIVAL INTERNATIONAL DES ARTS DU BENIN (FInAB)</title>
 </head>
 <body>

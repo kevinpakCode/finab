@@ -3,8 +3,127 @@
   include('./views/commons/doc_header.php');
   include('./views/commons/header.php');
 ?>
+<div class="wrapper">
+  <main class="main">
+    <section class="firstface programme">
+        <div class="container">
+            <div class="firstface__content">
+                <div class="firstface__content__img">
+                    <img src="./assets/images/svg/finab_head.svg" alt="finab_head">
+                </div>
+                <h1>ACTUALITÉS</h1>
+            </div>
+        </div>
+    </section>
+    <section class="actuality-detail-box">
+        <div class="container">
+            <div class="actuality-detail-box__content">
+                <div class="actuality-detail-box__img">
+                    <img src="./assets/images/actualite/actuality_detail.svg" alt="actuality_detail">
+                    <div class="actuality-detail-box__text">
+                        <h2>Partenariat entre la structure bénin excellence et Ecobank Bénin</h2>
+                        <span>23 Janvier 2023</span>
+                    </div>
+                </div>
+                <div class="actuality-detail-box__description">
+                    <div class="actuality-detail-box__rs">
+                        <a href="#"><i class="icon icon-facebook-circle"></i></a>
+                        <a href="#"><i class="icon icon-twitter-x"></i></a>
+                        <a href="#"><i class="icon icon-instagram"></i></a>
+                        <a href="#"><i class="icon icon-whatsapp"></i></a>
+                        <a href="#"><i class="icon icon-outline-plus"></i></a>
+                    </div>
+                    <div class="actuality-detail-box__detail">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Lectus nascetur id tristique amet 
+                            diam sit urna. Morbi massa adipiscing et consectetur netus sed. 
+                            At ullamcorper risus quis dolor. Vitae netus purus aliquam ut justo.
+                            Lorem ipsum dolor sit amet consectetur. Lectus nascetur id tristique amet 
+                            diam sit urna. Morbi massa adipiscing et consectetur netus sed. At ullamcorper 
+                            risus quis dolor. Vitae netus purus aliquam ut justo.Lorem ipsum dolor sit 
+                            amet consectetur. Lectus nascetur id tristique amet diam sit urna. Morbi 
+                            massa adipiscing et consectetur netus sed. At ullamcorper risus quis dolor. 
+                        </p>
+                        <p>
+                            Vitae netus purus aliquam ut justo.Lorem ipsum dolor sit amet consectetur. 
+                            Lectus nascetur id tristique amet diam sit urna. Morbi massa adipiscing et consectetur 
+                            netus sed. At ullamcorper risus quis dolor. Vitae netus purus aliquam ut justo.Lorem ipsum 
+                            dolor sit amet consectetur. Lectus nascetur id tristique amet diam sit urna. Morbi massa
+                            adipiscing et consectetur netus sed. At ullamcorper risus quis dolor. Vitae netus purus
+                            aliquam ut justo.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Lectus nascetur id tristique amet 
+                            diam sit urna. Morbi massa adipiscing et consectetur netus sed. 
+                            At ullamcorper risus quis dolor. Vitae netus purus aliquam ut justo.
+                            Lorem ipsum dolor sit amet consectetur. Lectus nascetur id tristique 
+                            amet diam sit urna. Morbi massa adipiscing et consectetur netus sed. 
+                            At ullamcorper risus quis dolor. Vitae netus purus aliquam ut justo.Lorem 
+                            ipsum dolor sit amet consectetur. Lectus nascetur id tristique amet diam 
+                            sit urna. Morbi massa adipiscing et consectetur netus sed. At ullamcorper 
+                            risus quis dolor. Vitae netus purus aliquam ut justo.
+                        </p>
 
-<main>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="same-actuality">
+        <div class="container">
+            <div class="same-actuality__content">
+                <h2>Autres Articles de la même catégorie</h2>
+                <div class="actualite__content__news">
+                    <a href="#" class="single_new">
+                        <div class="single_new_img">
+                            <img src="./assets/images/actualite/new.png" />
+                        </div>
+                        <p class="single_new_text">
+                            Partenariat entre la structure bénin excellence nariat entre la structure la structure bénin excellence nariat bén...
+                        </p>
+                        <div class="single_new_date">
+                            <i class="icon icon-calendar"></i>
+                            <p class="single_new_date_p">23 Janvier 2023</p>
+                        </div>
+                    </a>
+                    <a href="#" class="single_new">
+                        <div class="single_new_img">
+                            <img src="./assets/images/actualite/new.png" />
+                        </div>
+                        <p class="single_new_text">
+                            Partenariat entre la structure bénin excellence nariat entre la structure la structure bénin excellence nariat bén...
+                        </p>
+                        <div class="single_new_date">
+                            <i class="icon icon-calendar"></i>
+                            <p class="single_new_date_p">23 Janvier 2023</p>
+                        </div>
+                    </a>
+                    <a href="#" class="single_new">
+                        <div class="single_new_img">
+                            <img src="./assets/images/actualite/new.png" />
+                        </div>
+                        <p class="single_new_text">
+                            Partenariat entre la structure bénin excellence nariat entre la structure la structure bénin excellence nariat bén...
+                        </p>
+                        <div class="single_new_date">
+                            <i class="icon icon-calendar"></i>
+                            <p class="single_new_date_p">23 Janvier 2023</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="same-actuality__seemore">
+                    <a href="#">
+                        VOIR TOUS LES ARTICLES
+                        <img src="assets/images/svg/Arrow Bottom Right.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+</div>
+
+<!-- <main>
     <div class="row_banner">
         <div class="container">
             <div class="name_page_logo">
@@ -139,7 +258,7 @@
             </div>
         </div>
     </div>
-</main>
+</main>  -->
 <?php
   include('./views/commons/footer.php');
   include('./views/commons/doc_footer.php');

@@ -82,7 +82,7 @@ pg-actualite .actualite-section {
 .actualite__content__news {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 25px;
 }
 @media (min-width:734px) and (max-width: 1105px) {
   .actualite__content__news {

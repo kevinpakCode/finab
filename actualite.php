@@ -45,7 +45,7 @@ include('./views/commons/header.php');
 
           <div class="actualite__content__news_paginate">
             <div class="actualite__content__news" id="news-container">
-              <div class="single_new">
+              <a href="#" class="single_new">
                 <div class="single_new_img">
                   <img src="./assets/images/actualite/new.png" />
                 </div>
@@ -56,7 +56,7 @@ include('./views/commons/header.php');
                   <i class="icon icon-calendar"></i>
                   <p class="single_new_date_p">23 Janvier 2023</p>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="pagination-container" id="pagination-container">
             

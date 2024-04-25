@@ -38,6 +38,7 @@
 }
 
 
+/* program page*/
 .firstface.programme{
     background-image: url(../../images/firstface.png);
     background-position: center;
@@ -224,4 +225,180 @@
     .programme-box__bottom__list{
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+/* notfound */
+.notfound{
+    background-image: url(../../images/graphity.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 150px;
+}
+.notfound__content{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    flex-direction: column;
+}
+.notfound__content:before{
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    background-image: url('../../images/svg/Mask group (2).svg'),url('../../images/svg/Mask group (3).svg'),url('../../images/svg/Mask group (4).svg'),url('../../images/svg/Mask group (5).svg');
+    background-repeat: no-repeat;
+    background-position: top left, bottom left,top right, bottom right;
+}
+.notfound__content h1{
+    text-align: center;
+    color:#000;
+}
+.notfound__text{
+    text-align: center;
+}
+.notfound__content a{
+    padding:8px 45px;
+    background-color: #FF910E;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition:.3px;
+}
+.notfound__content a:hover{
+    background-color: orange;
+}
+
+
+/*actuality details*/
+.actuality-detail-box{
+    background-image: url(../../images/graphity.png);
+    background-repeat: repeat;
+    padding-bottom: 25px;;
+}
+.actuality-detail-box__content{
+    background-color: #fff;
+    padding: 50px 10px;
+}
+.actuality-detail-box__img{
+    height: 422px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.actuality-detail-box__img img{
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.actuality-detail-box__img:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width: 100%;
+    background-image: linear-gradient(182.12deg, rgba(0, 0, 0, 0.0318) 13.77%, rgba(0, 0, 0, 0.53) 42.66%), url('../../images/svg/image 1.svg');
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.actuality-detail-box__text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding:15px;
+}
+.actuality-detail-box__text h2, .actuality-detail-box__text span{
+    color:#fff;
+}
+.actuality-detail-box__text h2{
+    font-family: 'openSans-semiBold',sans-serif;
+    line-height: 1.8rem;
+}
+.actuality-detail-box__text span{
+    font-family: 'Paprika-regular',sans-serif;
+}
+.actuality-detail-box__description{
+    margin-top:35px;
+}
+.actuality-detail-box__detail p{
+    margin-bottom: 20px;
+}
+.actuality-detail-box__description{
+    display: flex;
+    gap:25px;
+    flex-wrap: nowrap;
+}
+.actuality-detail-box__rs{
+    width: max-content;
+    height: max-content;
+    background: #D9D9D9;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    padding:8px;
+}
+.actuality-detail-box__rs a{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+.actuality-detail-box__rs i{
+    width: 24px;
+    height: 24px;
+    background-color: #000000;
+    cursor: pointer;
+}
+.actuality-detail-box__rs i:hover{
+    background-color: #FF910E;
+}
+@media (max-width: 767px) {
+    .actuality-detail-box__description{
+        flex-wrap: wrap;
+    }
+    .actuality-detail-box__detail{
+        width: 100%;
+        order:1;
+    }
+    .actuality-detail-box__rs{
+        order:2;
+        flex-direction: row;
+    }
+}
+
+.same-actuality__content{
+    padding-top:45px;
+    padding-bottom: 45px;
+}
+.same-actuality__content h2{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.8rem;
+}
+
+.same-actuality__seemore{
+    margin-top:25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.same-actuality__seemore a{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 5px;
+    padding:5px 10px;
+    background-color: #A4A2A0;
+    color:#fff;
+    width: max-content;
+    transition: .3s;
+}
+.same-actuality__seemore a img{
+    width:35px;
+}
+.same-actuality__seemore a:hover{
+    background-color: orange;
 }

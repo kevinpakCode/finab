@@ -12,7 +12,8 @@ function displayArticles(pageNumber, articlesToDisplay = news) {
     newsContainer.innerHTML = '';
 
     articles.forEach(article => {
-        const articleElement = document.createElement('div');
+        const articleElement = document.createElement('a');
+        articleElement.href = '#'
         articleElement.className = 'single_new';
 
         const imgContainer = document.createElement('div');
