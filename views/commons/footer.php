@@ -28,7 +28,7 @@
                   <i class="icon icon-phone"></i>
                   <div class="footer__top__right__bottom-row-list">
                     <a href="tel:0022991436363">+(229) 91- 43 - 63 -  63</a>
-                    <a href="tel:0022955061818">+(229) 55 - 06 - 18 - 18</a>
+                    <a href="tel:0022955726060">+(229) 55 - 72 - 60 - 60</a>
                   </div>
                 </div>
               </li>
@@ -68,7 +68,7 @@
           <div class="footer__bottom__rs">
             <a href="https://www.facebook.com/finabbj"><i class="icon icon-facebook"></i></a>
             <a href="https://www.instagram.com/finab.bj/"><i class="icon icon-instagram"></i></a>
-            <a href="https://twitter.com/finabbj"><i class="icon icon-twitter"></i></a>
+            <a href="https://twitter.com/finabbj"><i class="icon icon-twitter-x"></i></a>
             <a href="https://www.youtube.com/channel/UCFWi_KjtltyPxeiwZz7Wvkg"><i class="icon icon-youtube"></i></a>
             <a href="https://www.linkedin.com/company/festival-international-des-arts-du-b%C3%A9nin/"><i class="icon icon-linkedin"></i></a>
           </div>

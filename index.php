@@ -158,27 +158,27 @@
           <h2>Venez découvrir les talents à l’honneur du FInAB 2024</h2>
           <p class="talent__subText">Les manifestations artistiques empreintes d'exclusivité dévoileront un panorama envoûtant d'artistes, tant locaux qu'internationaux</p>
           <div class="distinction__list talent__list js-distinction">
-            <div class="distinction__item">
+            <a href="./assets/images/artistes-prestation/AP-01.png" class="distinction__item" data-fancybox="gallery">
               <img src="./assets/images/artistes-prestation/AP-01.png" alt="distinction_img">
-            </div>
-            <div class="distinction__item">
+            </a>
+            <a href="./assets/images/artistes-prestation/AP-02.png" class="distinction__item" data-fancybox="gallery">
               <img src="./assets/images/artistes-prestation/AP-02.png" alt="distinction_img">
-            </div>
-            <div class="distinction__item">
+            </a>
+            <a href="./assets/images/artistes-prestation/AP-03.png" class="distinction__item" data-fancybox="gallery">
               <img src="./assets/images/artistes-prestation/AP-03.png" alt="distinction_img">
-            </div>
-            <div class="distinction__item">
+            </a>
+            <a href="./assets/images/artistes-prestation/AP-04.png" class="distinction__item" data-fancybox="gallery">
               <img src="./assets/images/artistes-prestation/AP-04.png" alt="distinction_img">
-            </div>
-            <div class="distinction__item">
+            </a>
+            <a href="./assets/images/artistes-prestation/AP-05.png" class="distinction__item" data-fancybox="gallery">
               <img src="./assets/images/artistes-prestation/AP-05.png" alt="distinction_img">
-            </div>
-            <div class="distinction__item">
+            </a>
+            <a href="./assets/images/artistes-prestation/AP-06.png" class="distinction__item" data-fancybox="gallery">
               <img src="./assets/images/artistes-prestation/AP-06.png" alt="distinction_img">
-            </div>
-            <div class="distinction__item">
+            </a>
+            <a href="./assets/images/artistes-prestation/AP-07.png" class="distinction__item" data-fancybox="gallery">
               <img src="./assets/images/artistes-prestation/AP-07.png" alt="distinction_img">
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -189,31 +189,113 @@
           <h2>Nos partenaires</h2>
           <div class="partner__list js-partner">
             <div class="partner__item">
-              <img src="./assets/images/p7.png" alt="partner">
+              <img src="./assets/images/p1.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p1.png" alt="partner">
+              <img src="./assets/images/p2.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p2.png" alt="partner">
+              <img src="./assets/images/p3.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p3.png" alt="partner">
+              <img src="./assets/images/p4.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p4.png" alt="partner">
+              <img src="./assets/images/p5.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p5.png" alt="partner">
+              <img src="./assets/images/p6.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p6.png" alt="partner">
+              <img src="./assets/images/p7.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p3.png" alt="partner">
+              <img src="./assets/images/p8.svg" alt="partner">
             </div>
             <div class="partner__item">
-              <img src="./assets/images/p4.png" alt="partner">
+              <img src="./assets/images/p9.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p10.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p11.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p12.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p13.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p14.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p15.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p16.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p17.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p18.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p19.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p20.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p21.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p22.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p23.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p24.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p25.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p26.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p27.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p28.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p29.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p30.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p31.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p32.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p33.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p34.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p35.svg" alt="partner">
+            </div>
+            <div class="partner__item">
+              <img src="./assets/images/p36.svg" alt="partner">
+            </div>
           </div>
         </div>
       </div>
