@@ -143,9 +143,16 @@ pg-actualite .actualite-section {
 }
 
 .pagination-container .arrow-btn {
-  margin: 0px 10px;
-  font-size: 20px;
   cursor: pointer;
+  height:30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+.pagination-container .arrow-btn:hover i{
+  background-color: orange;
 }
 
 .pagination-container .paginate-select {
@@ -161,10 +168,11 @@ pg-actualite .actualite-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   border-radius: 5px;
   border: 1px solid #f3f4fa;
+  cursor: pointer;
 }
 
 .pagination-container .active {
