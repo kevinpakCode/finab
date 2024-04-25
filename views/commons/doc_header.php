@@ -1,4 +1,4 @@
-<?php include('./../../helpers/default_helper.php');?>
+<?php include('helpers/default_helper.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
