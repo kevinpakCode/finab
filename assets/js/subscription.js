@@ -3,7 +3,6 @@ import MODAL from "./libs/modal.js"
 
 
 const subcriptionBtn = document.getElementById('subcriptionBtn')
-console.log(subcriptionBtn)
 const modalContent = () => {
     const modalContent = document.createDocumentFragment()
     const modalBody = document.createElement('div')
@@ -25,3 +24,4 @@ subcriptionBtn.addEventListener('click', (e) =>{
         }
     })
 })
+
