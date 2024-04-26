@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
     window.addEventListener("scroll", () => {
@@ -16,9 +17,8 @@ $(document).ready(function(){
           }
         }
       
-      })
+    })
       
-
     const  btnMenu = document.getElementById("js-btn-menu")
     if(btnMenu){
         const headerMenuMobile = document.getElementById("header-menu")
@@ -193,7 +193,6 @@ $(document).ready(function(){
 
         }
     }
-
     
 })
 

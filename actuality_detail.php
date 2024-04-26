@@ -26,13 +26,13 @@
                     </div>
                 </div>
                 <div class="actuality-detail-box__description">
-                    <div class="actuality-detail-box__rs">
+                    <!-- <div class="actuality-detail-box__rs">
                         <a href="#"><i class="icon icon-facebook-circle"></i></a>
                         <a href="#"><i class="icon icon-twitter-x"></i></a>
                         <a href="#"><i class="icon icon-instagram"></i></a>
                         <a href="#"><i class="icon icon-whatsapp"></i></a>
                         <a href="#"><i class="icon icon-outline-plus"></i></a>
-                    </div>
+                    </div> -->
                     <div class="actuality-detail-box__detail" id="article-content">
                         <p>
                             Lorem ipsum dolor sit amet consectetur. Lectus nascetur id tristique amet 

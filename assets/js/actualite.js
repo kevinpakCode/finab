@@ -130,19 +130,19 @@ const actuality_detail = () => {
         randomIndexes.forEach(index => {
             const article = news[index];
             const articleHTML = `
-      <a href="#" class="single_new">
-        <div class="single_new_img">
-          <img src="${article.img}" />
-        </div>
-        <p class="single_new_text">
-          ${article.titre}
-        </p>
-        <div class="single_new_date">
-          <i class="icon icon-calendar"></i>
-          <p class="single_new_date_p">${article.date_publication}</p>
-        </div>
-      </a>
-    `;
+                <a href="actuality_detail.php?id=${article.id}" class="single_new">
+                    <div class="single_new_img">
+                    <img src="${article.img}" />
+                    </div>
+                    <p class="single_new_text">
+                    ${article.titre}
+                    </p>
+                    <div class="single_new_date">
+                    <i class="icon icon-calendar"></i>
+                    <p class="single_new_date_p">${article.date_publication}</p>
+                    </div>
+                </a>
+                `;
             similarArticleElement.innerHTML += articleHTML;
 
         });

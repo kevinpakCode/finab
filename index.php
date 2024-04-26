@@ -22,7 +22,7 @@
               <span class="text">Bénin: Cotonou, Porto-Novo, Ouidah et Abomey</span>
             </div>
           </div>
-          <a href="<?="{$baseUrl}2023/programme.php"?>" class="banner__programme-btn">Consultez notre programme</a>
+          <a href="<?="{$baseUrl}programme.php"?>" class="banner__programme-btn">Consultez notre programme</a>
         </div>
       </div>
     </section>

@@ -46,7 +46,7 @@
               <p><< Identité et multiculturalisme : impacts sur les industries culturelles créatives en Afrique. >></p>
             </div>
             <div class="footer__top__right__bottom__form">
-              <form action="#">
+              <form action="newsletter.php" method="POST">
                 <label for="newsletter">Abonnez-vous À notre newsletter</label>
                 <div>
                   <input type="email" name="email" placeholder="Votre email">
