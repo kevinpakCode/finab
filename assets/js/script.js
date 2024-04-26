@@ -151,6 +151,7 @@ $(document).ready(function(){
     if(currentDateProgram.length>0){
         currentDateProgram.forEach(item =>{
             item.classList.add('active')
+            item.setAttribute('data-fancybox', currentDateFormatted)
         })
         $(`[data-fancybox="${currentDateFormatted}"]`).fancybox({});
 
