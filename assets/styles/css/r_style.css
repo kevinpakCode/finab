@@ -103,9 +103,12 @@ pg-actualite .actualite-section {
 .single_new_img {
   background: #5a5859;
   padding: 9px;
-  /* width: 100%; */
+  height: 230px;
+  overflow: hidden;
 }
 .single_new_img img {
+  height: 100%;
+  object-fit: cover;
 }
 .single_new_text {
   font-family: "Open Sans", sans-serif;

@@ -104,7 +104,7 @@ const actuality_detail = () => {
 
         title.textContent = article.titre;
         date.textContent = article.date_publication;
-        content.textContent = article.contenu;
+        content.innerHTML = article.video? article.video + '<br>'+ article.contenu : article.contenu;
         img.src = article.img
 
         similarArticle()
@@ -152,7 +152,8 @@ const actuality_detail = () => {
 }
 
 document.addEventListener('DOMContentLoaded', function (e) {
-    const currentUrl = window.location.href
+    const currentUrl = window.location.href;
+    console.log(currentUrl)
     if (currentUrl.includes('actualite.php')) {
         actuality()
     }
