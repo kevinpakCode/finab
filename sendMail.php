@@ -53,7 +53,7 @@ if(!empty($_POST["nom_prenom"])&&!empty($_POST["email"])&&!empty($_POST["objet"]
         $mail->send();
         
         echo "Votre message a été envoyé avec succès.";
-        header('Location: contact.php');
+        header('Location: index.php');
         exit();
     } catch (Exception $err){
         echo "Erreur lors de l'envoi du message. Veuillez réessayer. (<a href='contact.php'>CLIQUER ICI POUR RÉESSAYER)";

@@ -19,7 +19,7 @@
         <div class="container">
             <div class="actuality-detail-box__content">
                 <div class="actuality-detail-box__img">
-                    <img src="./assets/images/actualite/actuality_detail.svg" alt="actuality_detail" id="article-img">
+                    <img src="" alt="actuality_detail" id="article-img">
                     <div class="actuality-detail-box__text">
                         <h2 id="article-title">Partenariat entre la structure bénin excellence et Ecobank Bénin</h2>
                         <span id="article-date">23 Janvier 2023</span>
