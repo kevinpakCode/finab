@@ -1,33 +1,3 @@
-<?php
-    require_once './mon-package/src/Mailer.php';
-
-    use MonPackage\Mailer;
-    try {
-        if ( !empty($_POST["email"]) ) {
-            $email = $_POST["email"];
-            
-            $to = $email; 
-            $subject = 'Abonnement à la newsletter';
-            $message_body = "Email: $email\n";
-            $message_body .= "Vous venez de vous abonner à notre newsletter. Vous recevrez désormais les actualités du site";
-            $mailer = new Mailer();
-            $mail= $mailer->sendMail($to, $subject, $message_body);
-            if ($mail) {
-                // dd($to);
-                echo "Votre message a été envoyé avec succès.";
-                header('Location: ' . $_SERVER['HTTP_REFERER']);
-                exit(); 
-            } else {
-                echo "Erreur lors de l'envoi du message. Veuillez réessayer.";
-            }
-        }
-    }catch (\Exception $e) {
-        $errorMessage = $e->getMessage();
-        var_dump($errorMessage);
-    }
-
-?>
-
 <?php 
 declare(strict_types=1);
 
@@ -41,28 +11,38 @@ require_once("phpMailer/SMTP.php");
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-$mail = new PHPMailer(true);
+$mailReceived = new PHPMailer(true);
+$mailSender = new PHPMailer(true);
 $alert = '';
 
 if(!empty($_POST["email"])){
     $email = $_POST["email"];
 
     try{
-        $mail->isSMTP();
-        $mail->Host = $_ENV['MAIL_FINAB_HOST'];
-        $mail->SMTPAuth = true;
-        $mail->Username = $_ENV['MAIL_FINAB'];
-        $mail->Password = $_ENV['MAIL_FINAB_PASSWORD'];
-        $mail->SMTPSecure = "ssl";
-        $mail->Port = "465";
+        $mailReceived->isSMTP();
+        $mailReceived->Host = $_ENV['MAIL_FINAB_HOST_RECEIVED'];
+        $mailReceived->SMTPAuth = true;
+        $mailReceived->Username = $_ENV['MAIL_FINAB'];
+        $mailReceived->Password = $_ENV['MAIL_FINAB_PASSWORD'];
+        $mailReceived->SMTPSecure = "ssl";
+        $mailReceived->Port = "465";
+        $mailReceived->setFrom($_ENV['MAIL_FINAB']);
+        $mailReceived->addAddress($_ENV['MAIL_FINAB']);
 
-        $mail->setFrom($_ENV['MAIL_FINAB']);
-        $mail->addAddress($_ENV['MAIL_FINAB']);
+        $mailSender->isSMTP();
+        $mailSender->Host = $_ENV['MAIL_FINAB_HOST_SEND'];
+        $mailSender->SMTPAuth = true;
+        $mailSender->Username = $_ENV['MAIL_FINAB'];
+        $mailSender->Password = $_ENV['MAIL_FINAB_PASSWORD'];
+        $mailSender->SMTPSecure = "ssl";
+        $mailSender->Port = "465";
+        $mailSender->setFrom($_ENV['MAIL_FINAB']);
+        $mailSender->addAddress($email);
 
-        $mail->isHTML(true);
-        $mail->Subject = "Abonnement au newsletter Finab";
-        $mail->CharSet = "UTF-8";
-        $mail->Body = '
+        $mailReceived->isHTML(true);
+        $mailReceived->Subject = "Abonnement au newsletter Finab";
+        $mailReceived->CharSet = "UTF-8";
+        $mailReceived->Body = '
             <!DOCTYPE html>
             <html lang="en">
                 <head>
@@ -70,13 +50,29 @@ if(!empty($_POST["email"])){
                 </head>
                 <body>
                     <div>
-                        Nouveau abonnement: <strong>Nom/Prénoms/Institution</strong>: '.$email.' <br>
+                        Le mail:<< <strong>'.$email.'</strong> >> vient de s\'inscrire au NewsLetter du Finab.
                     </div>
                 </body>
             </html>';
-        $mail->send();
+        $mailReceived->send();
+
+        $mailSender->isHTML(true);
+        $mailSender->Subject = "Abonnement au newsletter Finab";
+        $mailSender->CharSet = "UTF-8";
+        $mailSender->Body = '
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                </head>
+                <body>
+                    <div>
+                        Abonnement au NewsLetter effectué avec SUCCÈS .
+                    </div>
+                </body>
+            </html>';
+        $mailSender->send();
         
-        echo "Soumission effectué avec succès.";
         header('Location: index.php');
         exit();
     } catch (Exception $err){

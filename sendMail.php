@@ -22,7 +22,7 @@ if(!empty($_POST["nom_prenom"])&&!empty($_POST["email"])&&!empty($_POST["objet"]
 
     try{
         $mail->isSMTP();
-        $mail->Host = $_ENV['MAIL_FINAB_HOST'];
+        $mail->Host = $_ENV['MAIL_FINAB_HOST_RECEIVED'];
         $mail->SMTPAuth = true;
         $mail->Username = $_ENV['MAIL_FINAB'];
         $mail->Password = $_ENV['MAIL_FINAB_PASSWORD'];
@@ -33,7 +33,7 @@ if(!empty($_POST["nom_prenom"])&&!empty($_POST["email"])&&!empty($_POST["objet"]
         $mail->addAddress($_ENV['MAIL_FINAB']);
 
         $mail->isHTML(true);
-        $mail->Subject = "Nous contactons FINAB";
+        $mail->Subject = "FINAB CONTACT";
         $mail->CharSet = "UTF-8";
         $mail->Body = '
             <!DOCTYPE html>
