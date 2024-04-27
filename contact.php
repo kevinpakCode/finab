@@ -49,25 +49,30 @@
                     </div>
                     <div class="form_contact">
                         <div class="form_contact_content">
-                            <form action="">
+                            <form id="contactForm" method='post' action='<?="{$baseUrl}sendMail.php";?>'>
                                 <div class="form_control">
-                                    <label for="">Nom et prénom (s)</label>
-                                    <input type="text" name="" id="">
+                                    <label for="nom_prenom">Nom et prénom(s)</label>
+                                    <input type="text" name="nom_prenom" id="nom_prenom">
+                                    <div class="error_message" id="nom_prenom_error"></div>
                                 </div>
                                 <div class="form_control">
-                                    <label for="">Email</label>
-                                    <input type="email" name="" id="">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email">
+                                    <div class="error_message" id="email_error"></div>
                                 </div>
                                 <div class="form_control">
-                                    <label for="">Objet</label>
-                                    <input type="text" name="" id="">
+                                    <label for="objet">Objet</label>
+                                    <input type="text" name="objet" id="objet">
+                                    <div class="error_message" id="objet_error"></div>
                                 </div>
                                 <div class="form_control">
-                                    <label for="">Message</label>
-                                    <Textarea></Textarea>
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message"></textarea>
+                                    <div class="error_message" id="message_error"></div>
                                 </div>
                                 <button type="submit">SOUMETTRE</button>
                             </form>
+
                             <div class="row_coordonnees">
                                 <div class="telephone">
                                     <div class="logo_coordonnees">

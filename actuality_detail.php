@@ -19,21 +19,21 @@
         <div class="container">
             <div class="actuality-detail-box__content">
                 <div class="actuality-detail-box__img">
-                    <img src="./assets/images/actualite/actuality_detail.svg" alt="actuality_detail">
+                    <img src="" alt="actuality_detail" id="article-img">
                     <div class="actuality-detail-box__text">
-                        <h2>Partenariat entre la structure bénin excellence et Ecobank Bénin</h2>
-                        <span>23 Janvier 2023</span>
+                        <h2 id="article-title">Partenariat entre la structure bénin excellence et Ecobank Bénin</h2>
+                        <span id="article-date">23 Janvier 2023</span>
                     </div>
                 </div>
                 <div class="actuality-detail-box__description">
-                    <div class="actuality-detail-box__rs">
+                    <!-- <div class="actuality-detail-box__rs">
                         <a href="#"><i class="icon icon-facebook-circle"></i></a>
                         <a href="#"><i class="icon icon-twitter-x"></i></a>
                         <a href="#"><i class="icon icon-instagram"></i></a>
                         <a href="#"><i class="icon icon-whatsapp"></i></a>
                         <a href="#"><i class="icon icon-outline-plus"></i></a>
-                    </div>
-                    <div class="actuality-detail-box__detail">
+                    </div> -->
+                    <div class="actuality-detail-box__detail" id="article-content">
                         <p>
                             Lorem ipsum dolor sit amet consectetur. Lectus nascetur id tristique amet 
                             diam sit urna. Morbi massa adipiscing et consectetur netus sed. 
@@ -73,46 +73,11 @@
         <div class="container">
             <div class="same-actuality__content">
                 <h2>Autres Articles de la même catégorie</h2>
-                <div class="actualite__content__news">
-                    <a href="#" class="single_new">
-                        <div class="single_new_img">
-                            <img src="./assets/images/actualite/new.png" />
-                        </div>
-                        <p class="single_new_text">
-                            Partenariat entre la structure bénin excellence nariat entre la structure la structure bénin excellence nariat bén...
-                        </p>
-                        <div class="single_new_date">
-                            <i class="icon icon-calendar"></i>
-                            <p class="single_new_date_p">23 Janvier 2023</p>
-                        </div>
-                    </a>
-                    <a href="#" class="single_new">
-                        <div class="single_new_img">
-                            <img src="./assets/images/actualite/new.png" />
-                        </div>
-                        <p class="single_new_text">
-                            Partenariat entre la structure bénin excellence nariat entre la structure la structure bénin excellence nariat bén...
-                        </p>
-                        <div class="single_new_date">
-                            <i class="icon icon-calendar"></i>
-                            <p class="single_new_date_p">23 Janvier 2023</p>
-                        </div>
-                    </a>
-                    <a href="#" class="single_new">
-                        <div class="single_new_img">
-                            <img src="./assets/images/actualite/new.png" />
-                        </div>
-                        <p class="single_new_text">
-                            Partenariat entre la structure bénin excellence nariat entre la structure la structure bénin excellence nariat bén...
-                        </p>
-                        <div class="single_new_date">
-                            <i class="icon icon-calendar"></i>
-                            <p class="single_new_date_p">23 Janvier 2023</p>
-                        </div>
-                    </a>
+                <div class="actualite__content__news" id="similar-article">
+                  
                 </div>
                 <div class="same-actuality__seemore">
-                    <a href="#">
+                    <a href="actualite.php">
                         VOIR TOUS LES ARTICLES
                         <img src="assets/images/svg/Arrow Bottom Right.svg" alt="">
                     </a>

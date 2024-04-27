@@ -44,23 +44,8 @@ include('./views/commons/header.php');
           </div>
 
           <div class="actualite__content__news_paginate">
-            <div class="actualite__content__news" id="news-container">
-              <a href="#" class="single_new">
-                <div class="single_new_img">
-                  <img src="./assets/images/actualite/new.png" />
-                </div>
-                <p class="single_new_text">
-                  Partenariat entre la structure bénin excellence nariat entre la structure la structure bénin excellence nariat bén...
-                </p>
-                <div class="single_new_date">
-                  <i class="icon icon-calendar"></i>
-                  <p class="single_new_date_p">23 Janvier 2023</p>
-                </div>
-              </a>
-            </div>
-            <div class="pagination-container" id="pagination-container">
-            
-            </div>
+            <div class="actualite__content__news" id="news-container"></div>
+            <div class="pagination-container" id="pagination-container"></div>
           </div>
         </div>
       </div>

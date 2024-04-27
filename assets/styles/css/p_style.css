@@ -2,8 +2,84 @@
 .main{
     min-height: calc(100vh - (90px + 352px));
 }
+/* home*/
 .stat__item__top{
     white-space: nowrap;
+}
+
+.distinction__item{
+    cursor: pointer;
+}
+.distinction__item:before{
+    content:"";
+    position: absolute;
+    height:0;
+    width: 0;
+    background-color: #00000056;
+    z-index: 6;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+.distinction__item:after{
+    content:"";
+    position: absolute;
+    height:60px;
+    width: 60px;
+    z-index: 7;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .3s;
+    background-image: url(../../images/svg/finab_head.svg);
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+.distinction__item:hover:before{
+    height: 100%;
+    width: 100%;
+}
+.distinction__item:hover:after{
+    transform: translate(-50%, -50%) scale(1);
+}
+.last-event__item{
+    cursor: pointer;
+}
+.last-event__item:before{
+    content:"";
+    position: absolute;
+    height:0;
+    width: 0;
+    background-color: #00000056;
+    z-index: 6;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+.last-event__item:after{
+    content:"";
+    position: absolute;
+    height:60px;
+    width: 60px;
+    z-index: 7;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .3s;
+    background-image: url(../../images/svg/finab_head.svg);
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+.last-event__item:hover:before{
+    height: 100%;
+    width: 100%;
+}
+.last-event__item:hover:after{
+    transform: translate(-50%, -50%) scale(1);
 }
 
 @media (max-width:767px){
@@ -300,7 +376,7 @@
     top:0;
     height:100%;
     width: 100%;
-    background-image: linear-gradient(182.12deg, rgba(0, 0, 0, 0.0318) 13.77%, rgba(0, 0, 0, 0.53) 42.66%), url('../../images/svg/image 1.svg');
+    background-image: linear-gradient(182.12deg, rgba(0, 0, 0, 0.0318) 13.77%, rgba(0, 0, 0, 0.53) 42.66%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .actuality-detail-box__text{
@@ -401,4 +477,40 @@
 }
 .same-actuality__seemore a:hover{
     background-color: orange;
+}
+
+/* mediatheque */
+.media-list__item-img:before{
+    content:"";
+    position: absolute;
+    height:0;
+    width: 0;
+    background-color: #00000056;
+    z-index: 6;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+.media-list__item-img:after{
+    content:"";
+    position: absolute;
+    height:60px;
+    width: 60px;
+    z-index: 7;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .3s;
+    background-image: url(../../images/svg/finab_head.svg);
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+.media-list__item-img:hover:before{
+    height: 100%;
+    width: 100%;
+}
+.media-list__item-img:hover:after{
+    transform: translate(-50%, -50%) scale(1);
 }
